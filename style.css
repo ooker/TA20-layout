@@ -119,6 +119,10 @@ body{
         grid-template-columns: 1fr 1fr;
     }
     
+    .image-grid__item--important {
+        grid-column-start: 1; 
+        grid-column-end: 3;
+    }
 
 }
 
